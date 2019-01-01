@@ -32,7 +32,7 @@ function courses_custom_post_type() {
         'description'         => __( 'Course content type', 'agussuhantonet' ),
         'labels'              => $labels,
         // Features this CPT supports in Post Editor
-        'supports'            => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'custom-fields', 'page-attributes', 'post-formats', ),
+        'supports'            => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'custom-fields', 'page-attributes', 'post-formats', 'sidebar' ),
         // You can associate this CPT with a taxonomy or custom taxonomy. 
         'taxonomies'          => array( 'course_category', 'post_tag' ),
         /* A hierarchical CPT is like Pages and can have
