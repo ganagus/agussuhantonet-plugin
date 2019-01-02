@@ -31,7 +31,7 @@ function courses_custom_post_type() {
         'label'               => __( 'Courses', 'agussuhantonet' ),
         'description'         => __( 'Course content type', 'agussuhantonet' ),
         'labels'              => $labels,
-        'rewrite'             => array( 'slug' => 'course' ),
+        'rewrite'             => array( 'slug' => 'courses' ),
         // Features this CPT supports in Post Editor
         'supports'            => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'custom-fields', 'post-formats', ),
         // You can associate this CPT with a taxonomy or custom taxonomy. 
